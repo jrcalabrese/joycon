@@ -1,0 +1,27 @@
+---
+title: "A short example!"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup}
+library(joycon)
+library(tidyverse)
+```
+
+```{r}
+ggplot(mtcars, aes(x = mpg)) +
+  geom_density(aes(fill = factor(gear)), alpha=0.8) +
+  scale_fill_manual(values = joycon_pal("splat"))
+```
+
+```{r}
+ggplot(iris, aes(x = Sepal.Length, fill = as.factor(Species))) + 
+  geom_boxplot()  +
+  scale_fill_manual(values = joycon_pal("skywardsword"))
+```
