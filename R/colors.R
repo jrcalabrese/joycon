@@ -14,6 +14,6 @@ joycon_palettes <- list(
 )
 #' This function is terrible.
 #' @export
-joycon_pal <- function(name, n, type = c("discrete", "continuous")) {
+joycon_pal <- function(name) {
   pal <- joycon_palettes[[name]]
 }
