@@ -3,14 +3,18 @@
 \docType{data}
 \name{joycon_palettes}
 \alias{joycon_palettes}
-\title{Look at these nice colors.}
+\title{Palettes inspired by Nintendo.}
 \format{
-An object of class \code{list} of length 7.
+An object of class \code{list} of length 15.
 }
 \usage{
 joycon_palettes
 }
 \description{
-I need to fix that function and add an actual description later.
+Color options include: \code{supermario}, \code{skywardsword}, \code{starbits},
+\code{newhorizons}, \code{rainbowroad}, \code{splatoon},
+\code{yoshi}, \code{isabelle}, \code{kirby},
+\code{midna}, \code{korok}, \code{majora},
+\code{samus}, \code{delfino}, and \code{hyrule}.
 }
 \keyword{datasets}

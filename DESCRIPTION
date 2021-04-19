@@ -8,8 +8,7 @@ Authors@R:
            email = "calabrese.75@osu.edu",
            comment = c(ORCID = "0000-0003-1010-2951"))
 Description: Spice up your plots with color palettes inspired by Super Mario, Legend of Zelda, Animal Crossing, and Splatoon. 
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -18,3 +17,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Imports: ggplot2, scales, grDevices

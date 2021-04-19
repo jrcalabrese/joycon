@@ -1,5 +1,5 @@
 ---
-title: "A short example!"
+title: "A short example of joycon's color palettes."
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{example}
@@ -9,19 +9,25 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup}
+```{r}
 library(joycon)
-library(tidyverse)
+library(scales)
+library(ggplot2)
+```
+
+```{r}
+show_col(joycon_palettes$splat)
+# Use show_col() to see the other palettes
 ```
 
 ```{r}
 ggplot(mtcars, aes(x = mpg)) +
   geom_density(aes(fill = factor(gear)), alpha=0.8) +
-  scale_fill_manual(values = joycon_pal("splat"))
+  scale_fill_manual(values = joycon_pal("splatoon"))
 ```
 
 ```{r}
-ggplot(iris, aes(x = Sepal.Length, fill = as.factor(Species))) + 
-  geom_boxplot()  +
-  scale_fill_manual(values = joycon_pal("skywardsword"))
+ggplot(iris, aes(x = Sepal.Length, fill = Species)) + 
+  geom_histogram(bins = 30) +
+  scale_fill_manual(values = joycon_pal(name = "skywardsword"))
 ```

@@ -2,10 +2,21 @@
 % Please edit documentation in R/colors.R
 \name{joycon_pal}
 \alias{joycon_pal}
-\title{This function is terrible.}
+\title{An Nintendo-inspired color palette generator}
 \usage{
 joycon_pal(name, n, type = c("discrete", "continuous"))
 }
+\arguments{
+\item{name}{Name of color palette. Options are: \code{supermario}, \code{skywardsword}, \code{starbits},
+\code{newhorizons}, \code{rainbowroad}, \code{splatoon},
+\code{yoshi}, \code{isabelle}, \code{kirby},
+\code{midna}, \code{korok}, \code{majora},
+\code{samus}, \code{delfino}, and \code{hyrule}.}
+
+\item{n}{Number of colors needed.}
+
+\item{type}{Continuous or discrete.}
+}
 \description{
-This function is terrible.
+This includes palettes inspired by Nintendo games. If you have a specific game you'd like to request, DM me on Twitter @jrosecalabrese.
 }
