@@ -20,14 +20,14 @@ library(joycon)
 pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 ```
 
-![](example_images/newhorizons_actual.png){width=300px} ![](example_images/newhorizons.png){width=300px}
+<img src="example_images/newhorizons_actual.png" width="300"> <img src="example_images/newhorizons.png" width="300"> 
 
 
 ``` r
 pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
 ```
 
-![](example_images/hyrule_actual.png){width=100px} ![](example_images/hyrule.png){width=100px} 
+<img src="example_images/hyrule_actual.png" width="300"> <img src="example_images/hyrule.png" width="300"> 
 
 
 ``` r
@@ -36,7 +36,7 @@ pie(rep(1, 8), col = joycon_palettes$korok, labels = NA)
 pie(rep(1, 5), col = joycon_palettes$starbits, labels = NA)
 ```
 
-![](example_images/splatoon.png){width=300px} ![](example_images/korok.png){width=300px} ![](example_images/starbits.png){width=300px} 
+<img src="example_images/splatoon.png" width="300"> <img src="example_images/korok.png" width="300"> <img src="example_images/starbits.png" width="300"> 
 
 ## Example visualizations
 
