@@ -27,7 +27,7 @@ pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
 ```
 
-![](example_images/hyrule_actual.png){width=300px} ![](example_images/hyrule.png){width=300px} 
+![](example_images/hyrule_actual.png){width=100px} ![](example_images/hyrule.png){width=100px} 
 
 
 ``` r
