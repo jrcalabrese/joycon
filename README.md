@@ -2,6 +2,8 @@
 
 > Color palettes inspired by Nintendo.
 
+Hex sticker created with [Emi Tanaka's PowerPoint template](https://emitanaka.org/posts/hexsticker/). 
+
 ## Install package
 
 ``` r
