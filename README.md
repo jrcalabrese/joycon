@@ -2,7 +2,7 @@
 
 > Color palettes inspired by Nintendo.
 
-![](example_images/joycon_hexsticker.png){width=200px}
+![](example_images/joycon_hexsticker.png)
 
 Hex sticker created with [Emi Tanaka's PowerPoint template](https://emitanaka.org/posts/hexsticker/). 
 
