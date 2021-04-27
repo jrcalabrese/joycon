@@ -20,7 +20,7 @@ library(joycon)
 pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 ```
 
-<p float="center">
+<p align="middle">
 <img src="example_images/newhorizons_actual.png" width="300"> 
 <img src="example_images/newhorizons.png" width="300"> 
 </p>
@@ -29,7 +29,7 @@ pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
 ```
 
-<p float="center">
+<p align="middle">
 <img src="example_images/hyrule_actual.png" width="300"> 
 <img src="example_images/hyrule.png" width="300"> 
 </p>
