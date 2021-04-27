@@ -23,11 +23,13 @@ show_col(joycon_palettes$splat)
 ```{r}
 ggplot(mtcars, aes(x = mpg)) +
   geom_density(aes(fill = factor(gear)), alpha=0.8) +
-  scale_fill_manual(values = joycon_pal("splatoon"))
+  scale_fill_manual(values = joycon_pal("splatoon")) +
+  ggtitle(("Splatoon palette"))
 ```
 
 ```{r}
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) + 
   geom_histogram(bins = 30) +
-  scale_fill_manual(values = joycon_pal(name = "skywardsword"))
+  scale_fill_manual(values = joycon_pal(name = "skywardsword")) +
+  ggtitle("Skyward Sword palette")
 ```

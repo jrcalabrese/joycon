@@ -16,7 +16,7 @@ joycon_palettes <- list(
   rainbowroad = c("#ff1903", "#ff1eed", "#1e24ef", "#12e2ec", "#1afc07"),
   splatoon = c("#fa3296", "#aadc00", "#f75900", "#00c8b4", "#c800dc"),
   yoshi = c("#3b9e29", "#9ff576", "#f2ede9", "#f06a6b", "#f67d60"),
-  isabelle = c("#d9cc78", "#22382c", "#ecefd7", "#dda30f", "#8f261f", "#948152"),
+  isabelle = c("#d9cc78", "#22382c", "#ecefd7", "#dda30f", "#8f261f"),
   kirby = c("#ea86ab", "#17193e", "#9c162b", "#d12c54", "#f9d2ef"),
   # Palettes with eight colors each
   midna = c("#2a2a21", "#ecc944", "#966d27", "#99ae97", "#61705f", "#658e96", "#bf6b15", "#43585f"),

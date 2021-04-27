@@ -15,6 +15,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    ggplot2, 
+    scales,
+    grDevices
 VignetteBuilder: knitr
-Imports: ggplot2, scales, grDevices
