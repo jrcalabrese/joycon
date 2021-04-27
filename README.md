@@ -40,7 +40,7 @@ pie(rep(1, 8), col = joycon_palettes$korok, labels = NA)
 pie(rep(1, 5), col = joycon_palettes$starbits, labels = NA)
 ```
 
-<img src="example_images/splatoon.png" width="200"> <img src="example_images/korok.png" width="200"> <img src="example_images/starbits.png" width="200"> 
+<img src="example_images/splatoon.png" width="250"> <img src="example_images/korok.png" width="250"> <img src="example_images/starbits.png" width="250"> 
 
 ## Example visualizations
 
