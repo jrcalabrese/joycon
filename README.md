@@ -1,4 +1,4 @@
-# joycon
+# joycon: Color palettes inspired by Nintendo
 
 > Color palettes inspired by Nintendo.
 
