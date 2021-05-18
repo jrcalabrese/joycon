@@ -5,7 +5,7 @@
 \alias{joycon_palettes}
 \title{Palettes inspired by Nintendo.}
 \format{
-An object of class \code{list} of length 15.
+An object of class \code{list} of length 19.
 }
 \usage{
 joycon_palettes
@@ -13,8 +13,8 @@ joycon_palettes
 \description{
 Color options include: \code{supermario}, \code{skywardsword}, \code{starbits},
 \code{newhorizons}, \code{rainbowroad}, \code{splatoon},
-\code{yoshi}, \code{isabelle}, \code{kirby},
-\code{midna}, \code{korok}, \code{majora},
+\code{yoshi}, \code{isabelle}, \code{kirby}, \code{twilightprincess}, \code{wiisports},
+\code{korok}, \code{majora}, \code{duckhunt}, \code{littlemac},
 \code{samus}, \code{delfino}, and \code{hyrule}.
 }
 \keyword{datasets}

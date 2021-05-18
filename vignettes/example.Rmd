@@ -33,3 +33,17 @@ ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
   scale_fill_manual(values = joycon_pal(name = "skywardsword")) +
   ggtitle("Skyward Sword palette")
 ```
+
+```{r}
+ggplot(mtcars, aes(x=wt, y=mpg, color=qsec)) + 
+  geom_point(size=5) +
+  scale_color_gradientn(colors = joycon_pal("isabelle", type = "continuous")) +
+  ggtitle("Isabelle palette")
+```
+
+```{r}
+ggplot(mtcars, aes(x=wt, y=mpg, color=qsec)) + 
+  geom_point(size=5) +
+  scale_color_gradientn(colors = joycon_pal("rainbowroad", type = "continuous")) +
+  ggtitle("Rainbow Road palette")
+```
