@@ -13,6 +13,8 @@ editor_options:
 library(joycon)
 library(scales)
 library(ggplot2)
+library(gridExtra)
+library(cowplot)
 ```
 
 ```{r}
@@ -35,15 +37,41 @@ ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
 ```
 
 ```{r}
-ggplot(mtcars, aes(x=wt, y=mpg, color=qsec)) + 
-  geom_point(size=5) +
+ggplot(mtcars, aes(x = wt, y = mpg, color = qsec)) + 
+  geom_point(size = 5) +
   scale_color_gradientn(colors = joycon_pal("isabelle", type = "continuous")) +
   ggtitle("Isabelle palette")
 ```
 
 ```{r}
-ggplot(mtcars, aes(x=wt, y=mpg, color=qsec)) + 
-  geom_point(size=5) +
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
+  geom_point(aes(color = Sepal.Length), size=5) + 
   scale_color_gradientn(colors = joycon_pal("rainbowroad", type = "continuous")) +
   ggtitle("Rainbow Road palette")
 ```
+
+```{r}
+df <- data.frame(1:5, 1:5)
+colnames(df) <- c("x", "y")
+
+a <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$rainbowroad) + theme_minimal() + xlab("") + ylab("")
+b <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$newhorizons) + theme_minimal() + xlab("") + ylab("")
+c <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$twilightprincess) + theme_minimal() + xlab("") + ylab("")
+d <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$princesspeach) + theme_minimal() + xlab("") + ylab("")
+e <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$splatoon) + theme_minimal() + xlab("") + ylab("")
+f <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$wiisports) + theme_minimal() + xlab("") + ylab("")
+g <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$duckhunt) + theme_minimal() + xlab("") + ylab("")
+h <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$starbits) + theme_minimal() + xlab("") + ylab("")
+i <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$delfino) + theme_minimal() + xlab("") + ylab("")
+
+myplots <- list(a,b,c,
+                d,e,f,
+                g,h,i)
+
+j <- grid.arrange(grobs=myplots, ncol=3)
+
+cowplot::ggdraw(j) + 
+  theme(plot.background = element_rect(fill=NA, color = NA))
+```
+
+

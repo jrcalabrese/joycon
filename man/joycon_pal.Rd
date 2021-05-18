@@ -9,7 +9,7 @@ joycon_pal(name, n, type = c("discrete", "continuous"))
 \arguments{
 \item{name}{Name of color palette.
 Palettes include: \code{supermario}, \code{skywardsword}, \code{starbits},
-\code{newhorizons}, \code{rainbowroad}, \code{splatoon},
+\code{newhorizons}, \code{rainbowroad}, \code{splatoon},  \code{princesspeach},
 \code{yoshi}, \code{isabelle}, \code{kirby}, \code{twilightprincess}, \code{wiisports},
 \code{korok}, \code{majora}, \code{duckhunt}, \code{littlemac},
 \code{samus}, \code{delfino}, and \code{hyrule}.}
