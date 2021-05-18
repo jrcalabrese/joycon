@@ -9,8 +9,8 @@
 #' @export
 joycon_palettes <- list(
   # Palettes with three colors each
-  yoshi = c("#fda5cd", "#44b0ee", "#fb66ae"),
-  kirby = c("#6fe46b", "#fe8c50", "#fb4933"),
+  kirby = c("#fda5cd", "#44b0ee", "#fb66ae"),
+  yoshi = c("#6fe46b", "#fe8c50", "#fb4933"),
   littlemac = c("#686a67", "#90e26f", "#1f6720"),
   # Palettes with five colors each
   supermario = c("#E4000F", "#049CD8", "#FBD000", "#43B047", "#000000"),
