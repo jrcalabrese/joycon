@@ -5,16 +5,30 @@
 \alias{joycon_palettes}
 \title{Palettes inspired by Nintendo.}
 \format{
-An object of class \code{list} of length 19.
+An object of class \code{list} of length 38.
 }
 \usage{
 joycon_palettes
 }
 \description{
-Color options include: \code{supermario}, \code{skywardsword}, \code{starbits},
-\code{newhorizons}, \code{rainbowroad}, \code{splatoon},
-\code{yoshi}, \code{isabelle}, \code{kirby}, \code{twilightprincess}, \code{wiisports},
-\code{korok}, \code{majora}, \code{duckhunt}, \code{littlemac},
-\code{samus}, \code{delfino}, and \code{hyrule}.
+Color palettes inspired by Nintendo.
+Palettes are available in three, five, and eight colors.
 }
+\section{Three-color palettes}{
+ \code{DonkeyKong}, \code{IceClimbers}, \code{Kirby}, \code{LittleMac},
+\code{MayaFey}, \code{Pikachu}, \code{RhythmHeaven}, \code{ThreeHouses}, \code{Tomodachi}, \code{WiiFit}, \code{Yoshi.}
+}
+
+\section{Five color palettes}{
+ \code{AceAttorney}, \code{DelfinoPlaza}, \code{DuckHunt}, \code{Isabelle},
+\code{KidIcarus}, \code{Lucina}, \code{LuigisMansion}, \code{MajorasMask}, \code{NewHorizons}, \code{Nintendogs}, \code{Pictochat},
+\code{Pikmin}, \code{PrincessPeach}, \code{RainbowRoad}, \code{Samus}, \code{SkywardSword}, \code{Splatoon},
+\code{StarBits}, \code{StardewValley}, \code{StarFox}, \code{SuperMario}, \code{Tetris}, \code{TwilightPrincess},
+\code{WiiSports.}
+}
+
+\section{Eight-color palettes}{
+ \code{Hyrule}, \code{Korok}, \code{Xenoblade.}
+}
+
 \keyword{datasets}

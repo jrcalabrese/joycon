@@ -17,7 +17,7 @@ library(joycon)
 ## Color palettes
 
 ``` r
-pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
+pie(rep(1, 5), col = joycon_palettes$NewHorizons, labels = NA)
 ```
 
 <p img="middle">
@@ -26,7 +26,7 @@ pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 </p>
 
 ``` r
-pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
+pie(rep(1, 8), col = joycon_palettes$Hyrule, labels = NA)
 ```
 
 <p img="middle">
@@ -35,9 +35,9 @@ pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
 </p>
 
 ``` r
-pie(rep(1, 5), col = joycon_palettes$splatoon, labels = NA)
-pie(rep(1, 8), col = joycon_palettes$korok, labels = NA)
-pie(rep(1, 5), col = joycon_palettes$starbits, labels = NA)
+pie(rep(1, 5), col = joycon_palettes$Splatoon, labels = NA)
+pie(rep(1, 8), col = joycon_palettes$Korok, labels = NA)
+pie(rep(1, 5), col = joycon_palettes$StarBits, labels = NA)
 ```
 
 <img src="man/figures/splatoon.png" width="250"> <img src="man/figures/korok.png" width="250"> <img src="man/figures/starbits.png" width="250"> 
@@ -48,7 +48,7 @@ pie(rep(1, 5), col = joycon_palettes$starbits, labels = NA)
 library(ggplot2)
 ggplot(mtcars, aes(x = mpg)) +
   geom_density(aes(fill = factor(gear)), alpha=0.8) +
-  scale_fill_manual(values = joycon_pal("splatoon")) +
+  scale_fill_manual(values = joycon_pal("Splatoon")) +
   ggtitle(("Splatoon palette"))
 ```
 
@@ -57,7 +57,7 @@ ggplot(mtcars, aes(x = mpg)) +
 ``` r 
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) + 
   geom_histogram(bins = 30) +
-  scale_fill_manual(values = joycon_pal(name = "skywardsword")) +
+  scale_fill_manual(values = joycon_pal(name = "SkywardSword")) +
   ggtitle("Skyward Sword palette")
 ```
 
