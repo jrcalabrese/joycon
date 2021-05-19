@@ -2,7 +2,7 @@
 
 > Color palettes inspired by Nintendo.
 
-![](example_images/joycon_hexsticker.png)
+![](man/figures/hexsticker.png)
 
 Hex sticker created with [Emi Tanaka's PowerPoint template](https://emitanaka.org/posts/hexsticker/). 
 
@@ -21,8 +21,8 @@ pie(rep(1, 5), col = joycon_palettes$newhorizons, labels = NA)
 ```
 
 <p img="middle">
-<img src="example_images/newhorizons_actual.png" width="300"> 
-<img src="example_images/newhorizons.png" width="300"> 
+<img src="man/figures/newhorizons_actual.png" width="300"> 
+<img src="man/figures/newhorizons.png" width="300"> 
 </p>
 
 ``` r
@@ -30,8 +30,8 @@ pie(rep(1, 8), col = joycon_palettes$hyrule, labels = NA)
 ```
 
 <p img="middle">
-<img src="example_images/hyrule_actual.png" width="300"> 
-<img src="example_images/hyrule.png" width="300"> 
+<img src="man/figures/hyrule_actual.png" width="300"> 
+<img src="man/figures/hyrule.png" width="300"> 
 </p>
 
 ``` r
@@ -40,7 +40,7 @@ pie(rep(1, 8), col = joycon_palettes$korok, labels = NA)
 pie(rep(1, 5), col = joycon_palettes$starbits, labels = NA)
 ```
 
-<img src="example_images/splatoon.png" width="250"> <img src="example_images/korok.png" width="250"> <img src="example_images/starbits.png" width="250"> 
+<img src="man/figures/splatoon.png" width="250"> <img src="man/figures/korok.png" width="250"> <img src="man/figures/starbits.png" width="250"> 
 
 ## Example visualizations
 
@@ -52,7 +52,7 @@ ggplot(mtcars, aes(x = mpg)) +
   ggtitle(("Splatoon palette"))
 ```
 
-![](example_images/splatoon_viz.png)
+![](man/figures/splatoon_viz.png)
 
 ``` r 
 ggplot(iris, aes(x = Sepal.Length, fill = Species)) + 
@@ -61,4 +61,4 @@ ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
   ggtitle("Skyward Sword palette")
 ```
 
-![](example_images/skywardsword_viz.png)
+![](man/figures/skywardsword_viz.png)

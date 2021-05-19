@@ -3,11 +3,14 @@
 \docType{package}
 \name{joycon}
 \alias{joycon}
-\alias{jrosecalabrese}
 \title{joycon}
 \description{
 The \code{joycon} package provides several color palettes inspired by Nintendo games,
 including Super Mario, Animal Crossing, and the Legend of Zelda.
+}
+\details{
+\if{html}{\figure{hexsticker.PNG}{options: width="60\%" alt="Figure: hexsticker.png"}}
+\if{latex}{\figure{hexsticker.PDF}{options: width=7cm}}
 }
 \author{
 Julianna Calabrese

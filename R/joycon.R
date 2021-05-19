@@ -5,4 +5,10 @@
 #' @author Julianna Calabrese
 #' @docType package
 #' @keywords color palette nintendo
+#'
+#' @details
+#' \if{html}{\figure{hexsticker.PNG}{options: width="60%" alt="Figure: hexsticker.png"}}
+#' \if{latex}{\figure{hexsticker.PDF}{options: width=7cm}}
+#'
+#' @md
 NULL
