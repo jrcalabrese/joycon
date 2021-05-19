@@ -7,6 +7,8 @@
 \description{
 The \code{joycon} package provides several color palettes inspired by Nintendo games,
 including Super Mario, Animal Crossing, and the Legend of Zelda.
+}
+\details{
 \if{html}{\figure{hexsticker.PNG}{options: width="20\%"}}
 }
 \author{
