@@ -58,7 +58,7 @@ joycon_pal("KidIcarus")
 
 ``` r
 library(ggplot2)
-ggplot(diamonds, aes(x=cut, y=price, fill = cut)) + 
+ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + 
   geom_boxplot() + 
   scale_y_log10() + 
   scale_fill_manual(values = joycon_pal("Isabelle")) +
@@ -78,7 +78,7 @@ ggplot(diamonds, aes(x = cut, fill = cut)) +
 
 ``` r
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
-  geom_point(aes(color = Sepal.Length), size=5) + 
+  geom_point(aes(color = Sepal.Length), size = 5) + 
   scale_color_gradientn(colors = joycon_pal("AceAttorney", type = "continuous")) +
   ggtitle("Ace Attorney palette") +
   labs(caption = "(Yes, I know Ace Attorney is developed by Capcom)")
