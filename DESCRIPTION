@@ -1,6 +1,6 @@
 Package: joycon
-Title: Color palettes inspired by Nintendo.
-Version: 0.0.0.9000
+Title: Color palettes inspired by Nintendo
+Version: 0.1.0
 Authors@R: 
     person(given = "Julianna",
            family = "Calabrese",
@@ -8,7 +8,7 @@ Authors@R:
            email = "calabrese.75@osu.edu",
            comment = c(ORCID = "0000-0003-1010-2951"))
 Description: Spice up your plots with color palettes inspired by Super Mario, Legend of Zelda, Animal Crossing, and Splatoon. 
-License: `use_mit_license()`
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -16,7 +16,9 @@ RoxygenNote: 7.1.1
 Suggests: 
     knitr,
     rmarkdown,
-    ggplot2, 
+    ggplot2,
     scales,
-    grDevices
+    grDevices,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3

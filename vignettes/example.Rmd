@@ -1,8 +1,9 @@
 ---
-title: "A short example of joycon's color palettes."
+title: "joycon: Color palettes inspired by Nintendo."
+author: Julianna Calabrese
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{example}
+  %\VignetteIndexEntry{joycon: Color palettes inspired by Nintendo.}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
 editor_options: 
@@ -12,21 +13,19 @@ editor_options:
 ```{r}
 library(joycon)
 library(ggplot2)
-library(gridExtra)
-library(cowplot)
 ```
 
 ```{r}
 ggplot(mtcars, aes(x = mpg)) +
-  geom_density(aes(fill = factor(gear)), alpha=0.8) +
+  geom_density(aes(fill = factor(gear)), alpha = 0.8) +
   scale_fill_manual(values = joycon_pal("Splatoon")) +
   ggtitle(("Splatoon palette"))
 ```
 
 ```{r}
 ggplot(diamonds, aes(x = cut, fill = cut)) + 
-  geom_histogram(stat="count") +
-  scale_fill_manual(values = joycon_pal(name = "SkywardSword", type = "continuous")) +
+  geom_bar(stat = "count") +
+  scale_fill_manual(values = joycon_pal(name = "SkywardSword")) +
   ggtitle("Skyward Sword palette")
 ```
 
@@ -44,28 +43,4 @@ ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
   scale_color_gradientn(colors = joycon_pal("AceAttorney", type = "continuous")) +
   ggtitle("Ace Attorney palette") +
   labs(caption = "(Yes, I know Ace Attorney is developed by Capcom)")
-```
-
-```{r}
-df <- data.frame(1:5, 1:5)
-colnames(df) <- c("x", "y")
-
-a <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$RainbowRoad) + theme_minimal() + xlab("") + ylab("")
-b <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$NewHorizons) + theme_minimal() + xlab("") + ylab("")
-c <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$TwilightPrincess) + theme_minimal() + xlab("") + ylab("")
-d <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$PrincessPeach) + theme_minimal() + xlab("") + ylab("")
-e <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$Splatoon) + theme_minimal() + xlab("") + ylab("")
-f <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$WiiSports) + theme_minimal() + xlab("") + ylab("")
-g <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$DuckHunt) + theme_minimal() + xlab("") + ylab("")
-h <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$StarBits) + theme_minimal() + xlab("") + ylab("")
-i <- ggplot(df, aes(x=x, y=y)) + geom_col(fill=joycon_palettes$AceAttorney) + theme_minimal() + xlab("") + ylab("")
-
-myplots <- list(a,b,c,
-                d,e,f,
-                g,h,i)
-
-j <- grid.arrange(grobs=myplots, ncol=3)
-
-cowplot::ggdraw(j) + 
-  theme(plot.background = element_rect(fill=NA, color = NA))
 ```

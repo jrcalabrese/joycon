@@ -12,7 +12,7 @@
 #' `StarBits`, `StardewValley`, `StarFox`, `SuperMario`, `Tetris`, `TwilightPrincess`,
 #' `WiiSports.`
 #'
-#' @section Eight-color palettes: `Hyrule`, `Korok`, `Xenoblade.`
+#' @section Eight-color palettes: `BreathOfTheWild`, `Hyrule`, `KatamariDamacy`, `Korok`, `Xenoblade.`
 #'
 #' @export
 joycon_palettes <- list(
@@ -22,7 +22,7 @@ joycon_palettes <- list(
   Kirby = c("#fda5cd", "#44b0ee", "#fb66ae"),
   LittleMac = c("#686a67", "#90e26f", "#1f6720"),
   MayaFey = c("#7c6c9b", "#f5e9f3", "#cf9d6d"),
-    # I know Ace Attorney is technically Capcom, don't @ me
+    # I know Ace Attorney is Capcom, don't @ me
   Pikachu = c("#ffd73c", "#e7a840", "#ee4d31"),
   RhythmHeaven = c("#fe9a1b", "#f5571e", "#22a8cf"),
   ThreeHouses = c("#eacd6d", "#3d3fd2", "#be2a4a"),
@@ -49,24 +49,27 @@ joycon_palettes <- list(
   Splatoon = c("#fa3296", "#f75900", "#aadc00", "#00c8b4", "#c800dc"),
   StarBits = c( "#e36f46", "#ffe668", "#b9ff84", "#7890d8", "#e560f9"),
   StardewValley = c("#017fef", "#64e7e9", "#0cbb44", "#e4aa00", "#a36f00"),
-  # I have played too much Stardew Valley on my Switch to leave it out of this package!
+    # I have played too much Stardew Valley on my Switch to leave it out of this package!
   StarFox = c("#ec4368", "#f6b14f", "#f8dd2d", "#0081aa", "#19305a"),
   SuperMario = c("#e4000f", "#049cd8", "#fbd000", "#43b047", "#000000"),
   Tetris = c("#cd00cd", "#ff7800", "#ffff00", "#00ff00", "#00ffff"),
   TwilightPrincess = c("#846048","#698454", "#3e877a", "#783a77", "#c098b6"),
   WiiSports = c("#37743a", "#88B63A", "#45a7c7", "#a48e60", "#ececef"),
   # Palettes with eight colors each
+  BreathOfTheWild = c("#536b83", "#8cb0bd", "#f5dfca", "#988076", "#6e7d2d", "#dfe372", "#fde4a1", "#f8c987"),
   Hyrule = c("#2c6fb4", "#2380fa", "#5ab5f5", "#b4e4f3", "#aac466", "#b5af3e", "#727f34", "#26311e"),
+  KatamariDamacy = c("#6bb1d3", "#96d0e1", "#8eba55", "#aadd78", "#319535", "#ede391", "#f8acbe", "#8d2d8d"),
+    # Yes, yes, it was developed by Namco, I know
   Korok = c("#5b211e", "#925f4e", "#d1ac9e", "#958879", "#a3ac89", "#78875c", "#5d5536", "#9f9fa0"),
   Xenoblade = c("#0a338d", "#2f88e1", "#d0eef9", "#b9e186", "#7bac4e", "#4c625a", "#9d0b09", "#ee0014"))
 #'
 #' An Nintendo-inspired color palette generator
 #'
 #' @description
-#' This includes palettes inspired by Nintendo games.
+#' Add Nintendo-inspired color palettes to your plots.
 #' If you have a specific game you'd like to request, DM me on Twitter @jrosecalabrese.
 #'
-#' @param name Name of color palette. Please see `joycon_palettes` for full list.
+#' @param name Name of color palette. Please see `joycon_palettes` for the full list.
 #'
 #' @param n Number of colors needed.
 #'
@@ -103,7 +106,6 @@ joycon_pal <- function(name, n, type = c("discrete", "continuous")) {
 #' @importFrom grDevices rgb
 print.palette <- function(x, ...) {
   n <- length(x)
-  #old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
   old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
   on.exit(par(old))
 

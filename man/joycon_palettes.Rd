@@ -5,7 +5,7 @@
 \alias{joycon_palettes}
 \title{Palettes inspired by Nintendo.}
 \format{
-An object of class \code{list} of length 38.
+An object of class \code{list} of length 40.
 }
 \usage{
 joycon_palettes
@@ -28,7 +28,7 @@ Palettes are available in three, five, and eight colors.
 }
 
 \section{Eight-color palettes}{
- \code{Hyrule}, \code{Korok}, \code{Xenoblade.}
+ \code{BreathOfTheWild}, \code{Hyrule}, \code{KatamariDamacy}, \code{Korok}, \code{Xenoblade.}
 }
 
 \keyword{datasets}

@@ -7,13 +7,13 @@
 joycon_pal(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
-\item{name}{Name of color palette. Please see \code{joycon_palettes} for full list.}
+\item{name}{Name of color palette. Please see \code{joycon_palettes} for the full list.}
 
 \item{n}{Number of colors needed.}
 
 \item{type}{Continuous or discrete.}
 }
 \description{
-This includes palettes inspired by Nintendo games.
+Add Nintendo-inspired color palettes to your plots.
 If you have a specific game you'd like to request, DM me on Twitter @jrosecalabrese.
 }
