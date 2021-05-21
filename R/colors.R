@@ -30,7 +30,7 @@ joycon_palettes <- list(
   WiiFit = c("#d9d7da", "#73bddc", "#638aa1"),
   Yoshi = c("#6fe46b", "#fe8c50", "#fb4933"),
   # Palettes with five colors each
-  AceAttorney = c("#036db9", "#95395f", "#fde820", "#d6c6a5", "#6b6f6e"),
+  AceAttorney = c("#036db9", "#95395f", "#fde820", "#d9ad15", "#7c5600"),
   DelfinoPlaza = c("#0080de", "#00d5d3", "#fbe9b9", "#fdbc67", "#da6a44"),
   DuckHunt = c("#c94b04", "#f97661", "#3dc0ff", "#82d30c", "#005909"),
   Isabelle = c("#ab4a3b", "#ffaa55", "#ffff80", "#808000", "#a2b0ac"),
