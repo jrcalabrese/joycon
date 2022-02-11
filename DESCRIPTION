@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "calabrese.75@osu.edu",
            comment = c(ORCID = "0000-0003-1010-2951"))
-Description: Spice up your plots with color palettes inspired by Super Mario, Legend of Zelda, Animal Crossing, and Splatoon. 
+Description: Color palettes inspired by Super Mario, Legend of Zelda, Animal Crossing, and Splatoon. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
