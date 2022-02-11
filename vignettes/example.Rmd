@@ -30,11 +30,18 @@ ggplot(diamonds, aes(x = cut, fill = cut)) +
 ```
 
 ```{r}
-ggplot(diamonds, aes(x=cut, y=price, fill = cut)) + 
+ggplot(diamonds, aes(x = cut, y = price, fill = cut)) + 
   geom_boxplot() + 
   scale_y_log10() + 
   scale_fill_manual(values = joycon_pal("Isabelle")) +
   ggtitle("Isabelle palette")
+```
+
+```{r}
+ggplot(airquality, aes(x = Month, y = Temp, fill = as.factor(Month))) +
+  geom_bar(stat = "identity") + 
+  scale_fill_manual(values = joycon_pal("Earthbound")) +
+  ggtitle("Earthbound palette")
 ```
 
 ```{r}

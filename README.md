@@ -46,12 +46,12 @@ joycon_pal("Nintendogs")
 <img src="man/figures/splatoon.png" width="250"> <img src="man/figures/wiifit.png" width="250"> <img src="man/figures/nintendogs.png" width="250"> 
 
 ``` r
-joycon_pal("TwilightPrincess")
-joycon_pal("Xenoblade")
-joycon_pal("KidIcarus")
+joycon_pal("Brewster")
+joycon_pal("GreatAceAttorney")
+joycon_pal("SalmonRun")
 ```
 
-<img src="man/figures/twilightprincess.png" width="250"> <img src="man/figures/xenoblade.png" width="250"> <img src="man/figures/kidicarus.png" width="250"> 
+<img src="man/figures/brewster.png" width="250"> <img src="man/figures/legendsarceus.png" width="250"> <img src="man/figures/salmonrun.png" width="250"> 
 
 ## Example visualizations
 
@@ -74,6 +74,17 @@ ggplot(diamonds, aes(x = cut, fill = cut)) +
 ```
 
 ![](man/figures/skywardsword_viz.png)
+
+``` r 
+mtcars %>%
+  filter(carb < 7) %>%
+  ggplot(aes(x = gear, y = qsec, fill = as.factor(carb))) +
+  geom_bar(stat = "identity", position = "dodge") + 
+  scale_fill_manual(values = joycon_pal("Earthbound")) +
+  ggtitle("Earthbound palette")
+```
+
+![](man/figures/earthbound_viz.png)
 
 ``` r
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width))+
