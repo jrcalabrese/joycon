@@ -51,7 +51,7 @@ joycon_palettes <- list(
   Earthbound = c("#274B95ff", "#3FA45Cff", "#DD2255ff", "#FEBA32ff", "#9B4B6Cff"), # new!
   CousinRedd = c("#CB7D16ff", "#D79D5Fff", "#DFDC6Cff", "#33967Cff", "#207157ff"), # new!
   DaisyMae = c("#E0C599ff", "#564298ff", "#458617ff", "#FAB349ff", "#BE6431ff"), # new!
-  GreatAceAttorney = c("#5B3A38ff", "#525266ff", "#D7C0A0ff", "#A68B6Aff", "#795D4Cff"), # new!
+  GreatAceAttorney = c("#640A12ff", "#563842ff", "#535E7Cff", "#2C354Dff", "#687053ff"), # new!
   LegendsArceus = c("#C05468ff", "#898EAAff", "#394E7Dff", "#96C096ff", "#4A6362ff"), # new!
 
   ## Palettes with eight colors each
