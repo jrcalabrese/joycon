@@ -5,15 +5,13 @@
 ## Install package
 
 ``` r
-install.packages("devtools")
-library(devtools)
 devtools::install_github("jrcalabrese/joycon")
 library(joycon)
 ```
 
 ## Introduction
 
-The **joycon** package provides 40 color palettes inspired by Nintendo video games, including Super Mario, the Legend of Zelda, and Animal Crossing. 
+The **joycon** package provides over 40 color palettes inspired by Nintendo video games, including Super Mario, the Legend of Zelda, and Animal Crossing. 
 
 I included a bunch of games, but if I missed one, feel free to DM me on Twitter `@jrosecalabrese` and I'll try to add it. 
 
