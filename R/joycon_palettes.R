@@ -51,15 +51,15 @@ joycon_palettes <- list(
   Earthbound = c("#274B95ff", "#3FA45Cff", "#DD2255ff", "#FEBA32ff", "#9B4B6Cff"), # new!
   CousinRedd = c("#CB7D16ff", "#D79D5Fff", "#DFDC6Cff", "#33967Cff", "#207157ff"), # new!
   DaisyMae = c("#E0C599ff", "#564298ff", "#458617ff", "#FAB349ff", "#BE6431ff"), # new!
+  GreatAceAttorney = c("#5B3A38ff", "#525266ff", "#D7C0A0ff", "#A68B6Aff", "#795D4Cff"), # new!
+  LegendsArceus = c("#C05468ff", "#898EAAff", "#394E7Dff", "#96C096ff", "#4A6362ff"), # new!
 
   ## Palettes with eight colors each
   BreathOfTheWild = c("#536b83", "#8cb0bd", "#f5dfca", "#988076", "#6e7d2d", "#dfe372", "#fde4a1", "#f8c987"),
   Hyrule = c("#2c6fb4", "#2380fa", "#5ab5f5", "#b4e4f3", "#aac466", "#b5af3e", "#727f34", "#26311e"),
   KatamariDamacy = c("#6bb1d3", "#96d0e1", "#8eba55", "#aadd78", "#319535", "#ede391", "#f8acbe", "#8d2d8d"),
   Korok = c("#5b211e", "#925f4e", "#d1ac9e", "#958879", "#a3ac89", "#78875c", "#5d5536", "#9f9fa0"),
-  Xenoblade = c("#0a338d", "#2f88e1", "#d0eef9", "#b9e186", "#7bac4e", "#4c625a", "#9d0b09", "#ee0014"),
-
-  GreatAceAttorney = c("#9B6650ff", "#CF9B72ff", "#7B5D51ff", "#E9D2BCff", "#503D36ff", "#5F5994ff", "#4B4B70ff", "#6E728Bff") # new!
+  Xenoblade = c("#0a338d", "#2f88e1", "#d0eef9", "#b9e186", "#7bac4e", "#4c625a", "#9d0b09", "#ee0014")
 )
 
 joycon_palettes_list <- names(joycon_palettes)
