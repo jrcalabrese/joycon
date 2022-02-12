@@ -3,7 +3,7 @@
 #' @description Color palettes inspired by Nintendo.
 #' Palettes are available in three, five, and eight colors.
 #'
-#' Use `joycon_palettes_list` to see all palettes available.
+#' Use `joycon_list` to see all palettes available.
 #'
 #' @export
 joycon_palettes <- list(
@@ -65,6 +65,3 @@ joycon_palettes <- list(
 # ...
 # ...
 # ...
-
-#' @export
-joycon_palettes_list <- names(joycon_palettes)
