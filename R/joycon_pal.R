@@ -4,7 +4,7 @@
 #' Add Nintendo-inspired color palettes to your plots.
 #' If you have a specific game you'd like to request, DM me on Twitter @jrosecalabrese.
 #'
-#' @param name Name of color palette. Please see `joycon_palettes` for the full list.
+#' @param name Name of color palette. Please see `joycon_list` for the full list.
 #'
 #' @param n Number of colors needed.
 #'

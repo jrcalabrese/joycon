@@ -5,7 +5,9 @@
 #' Use `joycon_list` to see all palettes available.
 #'
 #' @export
-joycon_list <- c("DonkeyKong", "IceClimbers", "Kirby", "LittleMac", "MayaFey",
+joycon_list <- function(){
+
+  list <- c("DonkeyKong", "IceClimbers", "Kirby", "LittleMac", "MayaFey",
                  "Pikachu", "RhythmHeaven", "ThreeHouses", "Tomodachi", "WiiFit",
                  "Yoshi", "AceAttorney", "DelfinoPlaza", "DuckHunt", "Isabelle",
                  "KidIcarus", "Lucina", "LuigisMansion", "MajorasMask", "NewHorizons",
@@ -15,3 +17,6 @@ joycon_list <- c("DonkeyKong", "IceClimbers", "Kirby", "LittleMac", "MayaFey",
                  "Brewster", "SalmonRun", "Earthbound", "CousinRedd", "DaisyMae",
                  "GreatAceAttorney", "LegendsArceus", "BreathOfTheWild", "Hyrule",
                  "KatamariDamacy", "Korok", "Xenoblade")
+
+  return(list)
+}
