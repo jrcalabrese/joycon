@@ -62,4 +62,9 @@ joycon_palettes <- list(
   Xenoblade = c("#0a338d", "#2f88e1", "#d0eef9", "#b9e186", "#7bac4e", "#4c625a", "#9d0b09", "#ee0014")
 )
 
+# ...
+# ...
+# ...
+
+#' @export
 joycon_palettes_list <- names(joycon_palettes)
