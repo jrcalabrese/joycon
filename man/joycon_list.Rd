@@ -9,5 +9,5 @@ joycon_list()
 \description{
 Palettes are available in three, five, and eight colors.
 
-Use \code{joycon_list} to see all palettes available.
+Use \code{joycon_list} to see all palettes available. Can add additional palettes upon request.
 }

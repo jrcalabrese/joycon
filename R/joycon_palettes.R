@@ -20,7 +20,7 @@ joycon_palettes <- list(
   WiiFit = c("#d9d7da", "#73bddc", "#638aa1"),
   Yoshi = c("#6fe46b", "#fe8c50", "#fb4933"),
 
-  Zagreus <-c("#802A19ff", "#4A0D0Cff", "#400001ff"), # new!
+  Zagreus = c("#802A19ff", "#4A0D0Cff", "#400001ff"), # new!
 
   ## Palettes with five colors each
   AceAttorney = c("#036db9", "#95395f", "#fde820", "#d9ad15", "#7c5600"),
@@ -54,7 +54,7 @@ joycon_palettes <- list(
   CousinRedd = c("#CB7D16ff", "#D79D5Fff", "#DFDC6Cff", "#33967Cff", "#207157ff"), # new!
   DaisyMae = c("#E0C599ff", "#564298ff", "#458617ff", "#FAB349ff", "#BE6431ff"), # new!
   GreatAceAttorney = c("#640A12ff", "#563842ff", "#535E7Cff", "#2C354Dff", "#687053ff"), # new!
-  GreatAceAttorney2 = c("#473D38ff", "#585D72ff", "#DBC397ff", "#BB9353ff", "#7F6F73ff"),
+  GreatAceAttorney2 = c("#473D38ff", "#585D72ff", "#DBC397ff", "#BB9353ff", "#7F6F73ff"), # new!
   LegendsArceus = c("#C05468ff", "#898EAAff", "#394E7Dff", "#96C096ff", "#4A6362ff"), # new!
   FamicomDetective = c("#4E242Bff", "#673549ff", "#72536Bff", "#886E8Aff", "#DCCAC2ff"), # new!
 
