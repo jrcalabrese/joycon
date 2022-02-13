@@ -7,7 +7,7 @@
 joycon_pal(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
-\item{name}{Name of color palette. Please see \code{joycon_palettes} for the full list.}
+\item{name}{Name of color palette. Please see \code{joycon_list} for the full list.}
 
 \item{n}{Number of colors needed.}
 
