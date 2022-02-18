@@ -5,7 +5,7 @@
 \alias{joycon_palettes}
 \title{Palettes inspired by Nintendo.}
 \format{
-An object of class \code{list} of length 50.
+An object of class \code{list} of length 55.
 }
 \usage{
 joycon_palettes

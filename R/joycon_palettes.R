@@ -19,8 +19,11 @@ joycon_palettes <- list(
   Tomodachi = c("#ef6b28", "#47ae43", "#02a1d4"),
   WiiFit = c("#d9d7da", "#73bddc", "#638aa1"),
   Yoshi = c("#6fe46b", "#fe8c50", "#fb4933"),
-
   Zagreus = c("#802A19ff", "#4A0D0Cff", "#400001ff"), # new!
+  Rowlet = c("#2DA885ff", "#CB9E81ff", "#E9C5A8ff"), # new!
+  Bayleef = c("#F5E2ACff", "#A3AE72ff", "#505E42ff"), # new!
+  Sylveon = c("#6294C6ff", "#B2D8EFff", "#E6A5BAff"), # new!
+  Togepi = c("#BA533Dff", "#509DB9ff", "#E9D9AAff"), # new!
 
   ## Palettes with five colors each
   AceAttorney = c("#036db9", "#95395f", "#fde820", "#d9ad15", "#7c5600"),
@@ -47,7 +50,6 @@ joycon_palettes <- list(
   Tetris = c("#cd00cd", "#ff7800", "#ffff00", "#00ff00", "#00ffff"),
   TwilightPrincess = c("#846048","#698454", "#3e877a", "#783a77", "#c098b6"),
   WiiSports = c("#37743a", "#88B63A", "#45a7c7", "#a48e60", "#ececef"),
-
   Brewster = c("#647A54ff", "#3C4335ff", "#D79351ff", "#52372Bff", "#803825ff"), # new!
   SalmonRun = c("#679624ff", "#398A7Aff", "#7E5D79ff", "#EC493Fff", "#CD7068ff"), # new!
   Earthbound = c("#274B95ff", "#3FA45Cff", "#DD2255ff", "#FEBA32ff", "#9B4B6Cff"), # new!
@@ -57,6 +59,7 @@ joycon_palettes <- list(
   GreatAceAttorney2 = c("#473D38ff", "#585D72ff", "#DBC397ff", "#BB9353ff", "#7F6F73ff"), # new!
   LegendsArceus = c("#C05468ff", "#898EAAff", "#394E7Dff", "#96C096ff", "#4A6362ff"), # new!
   FamicomDetective = c("#4E242Bff", "#673549ff", "#72536Bff", "#886E8Aff", "#DCCAC2ff"), # new!
+  MinMin = c("#B93614ff", "#FB9C40ff", "#2D4E34ff", "#1D6E1Aff", "#CDB80Dff"), # new!
 
   ## Palettes with eight colors each
   BreathOfTheWild = c("#536b83", "#8cb0bd", "#f5dfca", "#988076", "#6e7d2d", "#dfe372", "#fde4a1", "#f8c987"),
@@ -65,7 +68,3 @@ joycon_palettes <- list(
   Korok = c("#5b211e", "#925f4e", "#d1ac9e", "#958879", "#a3ac89", "#78875c", "#5d5536", "#9f9fa0"),
   Xenoblade = c("#0a338d", "#2f88e1", "#d0eef9", "#b9e186", "#7bac4e", "#4c625a", "#9d0b09", "#ee0014")
 )
-
-# ...
-# ...
-# ...
